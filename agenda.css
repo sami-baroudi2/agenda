@@ -1,0 +1,108 @@
+h1 {
+    text-align: center;
+    font-size: 200%;
+    color:navy;
+}
+.jours {
+    text-align: center;
+    color: white;
+    width:10%;
+    background-color: navy;
+    border:1px solid navy;
+}
+table {
+    border: 2px solid;
+    border-collapse: collapse;
+    width:90%;
+    align-items: center;
+    margin: auto;
+    margin-top:10%;
+    
+  
+}
+td {
+    border: 2px solid darkgray;
+    border-collapse: collapse;
+    color: navy;
+    text-align: center;
+    padding:1%;
+}
+.semaine {
+    font-size: 150%;
+    color: navy;
+    border: 2px solid navy;
+
+}
+.jours-f {
+    text-align: center;
+    width: 15%;
+    color: navy;
+    background-color:crimson;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: navy;
+    margin-top: 10%;
+}
+
+.nom {
+    display: flex;
+    flex-direction: column;
+}
+.quand {
+    display: flex;
+    flex-direction: column;
+}
+.choix {
+    display: flex;
+    flex-direction: column;
+}
+fieldset {
+    line-height: 150%;
+}
+legend {
+    font-size: 150%;
+    padding: 5%
+}
+.Tache {
+    display: inline-block;
+    background-color: navy;
+    color: white;
+    text-decoration: none;
+    margin-left: 5%;
+    padding:2%;
+    font-size:25px;
+    border-radius: 10%;
+}
+.Tache:hover {
+    transition-property: all;
+    transition-duration: 3s;
+    box-shadow: 5px 6px 20px black;
+    background-color: white;
+    color: navy;
+    rotate: 360deg;
+}
+.button {
+    display: inline-block;
+    border-radius: 10%;
+    padding: 5%;
+    background-color: white;
+    text-decoration: none;
+}
+.button:hover {
+    transition-property: all;
+    transition-duration: 2s;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 5%;
+    background-color: crimson;
+    text-decoration: none;
+    color: white;
+    padding:10%;
+
+}
+main {
+    margin-top: 4%;
+}

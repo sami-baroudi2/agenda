@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf=8">
+        <meta name="Formulaire" content="Formulaire">
+        <meta name="viewport" content="width=device-width"/>
+        <link rel="icon" href="agenda.ico" sizes="32x32">
+        <link rel="stylesheet" href="agenda.css">
+    </head>
+    <body>
+        <form method="post" action="formulaire.php">
+            <div class="formulaire"> 
+        <fieldset class="nom">
+                <legend>Nom de la tâche</legend>
+                <input type="text" name="Titre" id="titre" placeholder="Ajouter un titre" required>
+               
+        </fieldset>
+        <fieldset class="quand">
+                <legend>Quand?</legend>
+           
+           <label for="date">Date</label>
+           <input type="date" name="date" id="date" required>
+           <label for="time">Heure</label>
+           <input type="time" name="time" id="time" required>
+        </fieldset>
+
+        <fieldset class="choix">
+                <legend>Quoi?</legend>
+            <label for="travail">Travail</label>
+           <input type="radio" name="tache" id="travail">
+            
+           <label for="tache">Tâche</label>
+           <input type="radio" name="tache" id="tache">
+
+           <label for="Evenement">Événement</label>
+           <input type="radio" name="tache" id="Evenement">
+
+           <label for="rdv">Rendez-vous</label>
+           <input type="radio" name="tache" id="rdv">
+
+           <label for="reunion">Réunion</label>
+           <input type="radio" name="tache" id="reunion">
+           
+           <label for="commentaire">Ajouter un commentaire :</label>
+           <textarea name="commentaire" id="commentaire" placeholder="Commentaire"></textarea>
+        </fieldset>
+        <input type="submit" value="Enregistrer">
+    
+    </div>
+
+
+        </form>
+
+
+    </body>
+</html>
